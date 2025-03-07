@@ -1,8 +1,8 @@
-# VCF Filtering Script
+# NanoFilter
 
 ## Overview
 
-This script filters low-consistency variants from a VCF file using a reference genome and BAM alignment. It provides options to filter both SNPs and INDELs based on consistency scores.
+This software filters low-consistency variants from a VCF file using a reference genome and BAM alignment. It provides options to filter both SNPs and INDELs based on consistency scores.
 
 ## Usage
 
