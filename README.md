@@ -77,18 +77,7 @@ conda activate <environment_name>
 python src/main.py --reference ref.fasta --bam sample.bam --vcf raw_variants.vcf --out-dir filtered_output
 ```
 
-### 2. Run with Docker
 
-Alternatively, you can pull the pre-built Docker image:
-
-```bash
-docker pull <docker_repository>/vcf-filter:latest
-docker run --rm -v $(pwd):/data <docker_repository>/vcf-filter:latest \
-    --reference /data/ref.fasta \
-    --bam /data/sample.bam \
-    --vcf /data/raw_variants.vcf \
-    --out-dir /data/filtered_output
-```
 
 ## License
 
