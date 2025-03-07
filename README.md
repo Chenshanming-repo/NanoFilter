@@ -57,7 +57,7 @@ python src/main.py --reference ref.fasta \
 
 ## Installation & Dependencies
 
-The script can be run in two ways:
+The script can be run like this:
 
 ### 1. Run from Source Code
 
