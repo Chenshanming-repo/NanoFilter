@@ -83,5 +83,5 @@ def parse_clair3_vcf_line(line : str, line_no : int) -> VariantRecord:
         # if variant_type == VariantType.VARIANT_INDEL:
             # pos += 1
 
-    return VariantRecord(ctg, pos, allele1, allele2, int(QUAL), gt, variant_type, line_no)
+    return VariantRecord(ctg, pos, allele1, allele2, int(float(QUAL)), gt, variant_type, line_no)
 

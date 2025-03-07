@@ -1,18 +1,101 @@
-# NanoFilter
-A tool for consistency filtering of SNP and INDEL sites to make them more suitable for genotyping and assembly.
+# VCF Filtering Script
 
-## Singularity
+## Overview
+
+This script filters low-consistency variants from a VCF file using a reference genome and BAM alignment. It provides options to filter both SNPs and INDELs based on consistency scores.
+
+## Usage
+
+```bash
+python script.py --reference <path_to_reference> \
+                 --bam <path_to_bam> \
+                 --vcf <path_to_vcf> \
+                 --out-dir <output_directory> \
+                 [--filter-all | --filter-indel] \
+                 [-t <num_threads>] \
+                 [-p1 <filter_param1>] \
+                 [-p2 <filter_param2>] \
+                 [-p3 <filter_param3>] \
+                 [-q <quality_threshold>]
 ```
-singularity pull nanofilter.v1.1.sif docker://chenshanming/nanofilter:v1.1
+
+## Arguments
+
+### Required Arguments
+
+- `--reference <path>`: Path to the reference genome.
+- `--bam <path>`: Path to the BAM file containing aligned reads.
+- `--vcf <path>`: Path to the raw VCF file.
+- `--out-dir <path>`: Path to the output directory.
+
+### Optional Arguments
+
+- `-t, --threads <int>`: Number of parallel threads (default: `10`).
+- `--filter-all`: Filter both SNPs and INDELs based on consistency.
+- `--filter-indel`: Filter only INDELs while keeping SNPs unchanged.
+- `--filter-parameter1, -p1 <float>`: Filtering threshold for step 1 (default: `0.7`).
+- `--filter-parameter2, -p2 <float>`: Filtering threshold for step 2 (default: `0.8`).
+- `--filter-parameter3, -p3 <float>`: Filtering threshold for step 3 (default: `0.9`).
+- `--quality, -q <float>`: Quality filtering threshold for low-coverage regions (default: `15`).
+
+## Output
+
+The script outputs a filtered VCF file in the specified output directory.
+
+## Example
+
+```bash
+python src/main.py --reference ref.fasta \
+                 --bam sample.bam \
+                 --vcf raw_variants.vcf \
+                 --out-dir filtered_output \
+                 --filter-all \
+                 -t 20 \
+                 -p1 0.75 -p2 0.85 -p3 0.95 \
+                 -q 20
 ```
-Here is an example to run NanoFilter
+
+## Installation & Dependencies
+
+The script can be run in two ways:
+
+### 1. Run from Source Code
+
+Dependencies:
+
+- Python 3.x
+- `HapCUT2`
+- Libraries specified in `environment.yml`
+
+#### Installation Steps:
+
+```bash
+git clone <repository_url>
+cd <repository_name>
+conda env create -f environment.yml
+conda activate <environment_name>
+python src/main.py --reference ref.fasta --bam sample.bam --vcf raw_variants.vcf --out-dir filtered_output
 ```
-#!/bin/bash 
-REF="/public/home/hpc224712204/ref/GCA_000001405.15_GRCh38_no_alt_plus_hs38d1_analysis_set.fna"
-BAM="/public/home/hpc224712204/data/hg002_tag/r10_duplex/all_30x.bam"
-VCF="/public/home/hpc224712204/bench/hapdup_GRCH38_hg002/r10_duplex/raw_snp_filtered_indel_weight_th_qual15/pepper/PEPPER_VARIANT_FULL.vcf"
-OUT_DIR="/public/home/hpc224712204/software/NanoFilter/test_out"
-THREAD="48"
-COMMAND="source /opt/conda/bin/activate NanoFilterEnv && python src/main.py --reference $REF --bam $BAM --vcf $VCF --out-dir $OUT_DIR -t $THREAD --filter-all"
-singularity exec nanofilter.v1.1.sif bash -c "$COMMAND"
+
+### 2. Run with Docker
+
+Alternatively, you can pull the pre-built Docker image:
+
+```bash
+docker pull <docker_repository>/vcf-filter:latest
+docker run --rm -v $(pwd):/data <docker_repository>/vcf-filter:latest \
+    --reference /data/ref.fasta \
+    --bam /data/sample.bam \
+    --vcf /data/raw_variants.vcf \
+    --out-dir /data/filtered_output
 ```
+
+## License
+
+This script is open-source and available under the MIT License.
+
+## Contact
+
+For issues or questions, please open an issue on the project repository or contact the developer.
+
+
