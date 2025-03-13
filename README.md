@@ -7,7 +7,7 @@ This software filters low-consistency variants from a VCF file using a reference
 ## Usage
 
 ```bash
-python script.py --reference <path_to_reference> \
+python main.py --reference <path_to_reference> \
                  --bam <path_to_bam> \
                  --vcf <path_to_vcf> \
                  --out-dir <output_directory> \
