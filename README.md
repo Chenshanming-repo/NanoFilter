@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/892613239.svg)](https://doi.org/10.5281/zenodo.15354949)
 # NanoFilter
 
 ## Overview
