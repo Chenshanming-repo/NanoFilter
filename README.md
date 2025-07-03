@@ -75,6 +75,14 @@ git clone <repository_url>
 cd <repository_name>
 conda env create -f environment.yml
 conda activate <environment_name>
+
+# install HapCUT2
+git clone https://github.com/vibansal/HapCUT2.git
+cd HapCUT2
+make
+# add HAPCUT2 and extractHAIRS to enviroment path
+export PATH=$PATH:{PATH_TO_HAPCUT2}/build
+
 python src/main.py --reference ref.fasta --bam sample.bam --vcf raw_variants.vcf --out-dir filtered_output
 ```
 
