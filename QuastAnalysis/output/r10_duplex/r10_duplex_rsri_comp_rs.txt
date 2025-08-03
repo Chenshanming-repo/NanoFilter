@@ -1,0 +1,181 @@
+#Base quast results: C:\Users\Xiaotuantuan\Documents\quast_2\r10_duplex\raw_snp_raw_indel\quast_results
+#compare quast results: C:\Users\Xiaotuantuan\Documents\quast_2\r10_duplex\raw_snp\quast_results
+##CHROM	BASE_PHASEBLOCK	BASE_CONTIG_START	BASE_CONTIG_END	COMP_PHASEBLOCK	COMP_CONTIG_START	COMP_CONTIG_END	MIS_MSG	LAST_FRAGMENT_LENGTH	NEXT_FRAGMENT_LENGTH
+chr1_MATERNAL	hap2_contig_2386_phaseblock_5	2975842	3418820	hap1_contig_2386_phaseblock_8	3378456	3378457	translocation	77932	42446
+chr1_MATERNAL	hap2_contig_2760_phaseblock_0	1	65933	hap1_contig_2760_phaseblock_0	7271	7696	relocation, inconsistency = 2682	7270	18723
+chr1_MATERNAL	hap2_contig_2760_phaseblock_0	1	65933	hap1_contig_2760_phaseblock_0	26419	26420	relocation, inconsistency = 106827	18723	6567
+chr1_MATERNAL	hap2_contig_2760_phaseblock_0	1	65933	hap1_contig_2760_phaseblock_0	32987	32988	relocation, inconsistency = -1308	6567	26498
+chr1_MATERNAL	hap1_contig_3587_phaseblock_1	71745	165519	hap2_contig_3587_phaseblock_1	147665	147666	local misassembly	75838	18422
+chr1_MATERNAL	hap1_contig_4720_phaseblock_0	1	47328	hap2_contig_4720_phaseblock_0	3173	3174	translocation	3172	23048
+chr1_MATERNAL	hap1_contig_4720_phaseblock_0	1	47328	hap2_contig_4720_phaseblock_0	26222	26223	translocation	23048	3251
+chr1_MATERNAL	hap2_contig_5249_phaseblock_0	1	62464	hap1_contig_5249_phaseblock_0	18207	18208	relocation, inconsistency = 464737	18194	6191
+chr1_MATERNAL	hap2_contig_5249_phaseblock_0	1	62464	hap1_contig_5249_phaseblock_0	24399	24400	relocation, inconsistency = -464715	6191	18317
+chr1_MATERNAL	hap2_contig_5249_phaseblock_0	1	62464	hap1_contig_5249_phaseblock_0	42717	42718	relocation, inconsistency = 8793	18317	12329
+chr1_MATERNAL	hap2_contig_5249_phaseblock_0	1	62464	hap1_contig_5249_phaseblock_0	55047	55048	relocation, inconsistency = -8015	12329	6768
+chr1_MATERNAL	hap2_contig_5580_phaseblock_0	1	156265	hap1_contig_5580_phaseblock_0	99914	99915	relocation, inconsistency = 2836762	99900	3895
+chr1_MATERNAL	hap2_contig_5580_phaseblock_0	1	156265	hap1_contig_5580_phaseblock_0	103810	103811	relocation, inconsistency = -2837212	3895	53046
+chr1_PATERNAL	hap1_contig_1389_phaseblock_0	1	31454	hap2_contig_1389_phaseblock_0	9865	9866	relocation, inconsistency = -27882	9864	22307
+chr1_PATERNAL	hap2_contig_1699_phaseblock_0	1	86190	hap1_contig_1699_phaseblock_0	17015	17016	relocation, inconsistency = 2158567	17014	22228
+chr1_PATERNAL	hap2_contig_1699_phaseblock_0	1	86190	hap1_contig_1699_phaseblock_0	39244	39245	relocation, inconsistency = -324217	22228	1608
+chr1_PATERNAL	hap2_contig_1699_phaseblock_0	1	86190	hap1_contig_1699_phaseblock_0	40853	40854	relocation, inconsistency = -1834418	1608	44830
+chr1_PATERNAL	hap2_contig_1699_phaseblock_0	1	86190	hap1_contig_1699_phaseblock_0	85684	85731	inversion	44830	333
+chr1_PATERNAL	hap1_contig_1726_phaseblock_0	1	162761	hap2_contig_1726_phaseblock_0	69278	69279	local misassembly	69277	14913
+chr1_PATERNAL	hap1_contig_1726_phaseblock_0	1	162761	hap2_contig_1726_phaseblock_0	84192	84339	relocation, inconsistency = -225123	14913	69286
+chr1_PATERNAL	hap2_contig_2386_phaseblock_1	96343	243433	hap2_contig_2386_phaseblock_2	176624	176625	relocation, inconsistency = 103942844	3308	11663
+chr1_PATERNAL	hap2_contig_2386_phaseblock_1	96343	243433	hap2_contig_2386_phaseblock_2	188288	188289	relocation, inconsistency = -103942435	11663	52371
+chr1_PATERNAL	hap2_contig_2674_phaseblock_2	70317	167351	hap1_contig_2674_phaseblock_2	151586	158482	relocation, inconsistency = -6383	81293	15276
+chr1_PATERNAL	hap1_contig_2906_phaseblock_0	1	62141	hap2_contig_2906_phaseblock_0	40231	40425	translocation	40230	4607
+chr1_PATERNAL	hap1_contig_2906_phaseblock_0	1	62141	hap2_contig_2906_phaseblock_0	45032	45033	translocation	4607	17574
+chr1_PATERNAL	hap1_contig_35_phaseblock_0	1	1247855	hap2_contig_35_phaseblock_0	59073	59074	translocation	59072	585412
+chr1_PATERNAL	hap1_contig_3632_phaseblock_0	1	91260	hap2_contig_3632_phaseblock_0	41711	41712	relocation, inconsistency = -5023541	41710	1793
+chr1_PATERNAL	hap1_contig_3632_phaseblock_0	1	91260	hap2_contig_3632_phaseblock_0	43505	43506	relocation, inconsistency = -1344120	1793	9302
+chr1_PATERNAL	hap1_contig_3632_phaseblock_0	1	91260	hap2_contig_3632_phaseblock_0	52808	52809	relocation, inconsistency = 1344449	9302	38042
+chr1_PATERNAL	hap2_contig_3752_phaseblock_0	1	78469	hap1_contig_3752_phaseblock_0	31117	31118	relocation, inconsistency = -800741	31116	15426
+chr1_PATERNAL	hap2_contig_3752_phaseblock_0	1	78469	hap1_contig_3752_phaseblock_0	46544	46545	relocation, inconsistency = -1883815	15426	7984
+chr1_PATERNAL	hap2_contig_3752_phaseblock_0	1	78469	hap1_contig_3752_phaseblock_0	54529	54657	relocation, inconsistency = 1893997	7984	16076
+chr1_PATERNAL	hap1_contig_4872	1	49919	hap2_contig_4872_phaseblock_0	43379	43380	relocation, inconsistency = 1971981	43378	746
+chr1_PATERNAL	hap1_contig_4884_phaseblock_1	33072	71337	hap2_contig_4884_phaseblock_0	66622	66623	relocation, inconsistency = -603761	66621	4065
+chr1_PATERNAL	hap1_contig_4884_phaseblock_1	33072	71337	hap2_contig_4884_phaseblock_0	70688	70689	relocation, inconsistency = -9544037	4065	2165
+chr1_PATERNAL	hap1_contig_619_phaseblock_2	13319	118705	hap2_contig_619_phaseblock_2	32048	32049	relocation, inconsistency = 231395	18729	3074
+chr1_PATERNAL	hap1_contig_619_phaseblock_2	13319	118705	hap2_contig_619_phaseblock_2	35123	35124	relocation, inconsistency = 405360	3074	9762
+chr1_PATERNAL	hap1_contig_619_phaseblock_2	13319	118705	hap2_contig_619_phaseblock_2	44886	44887	relocation, inconsistency = -637249	9762	40786
+chr1_PATERNAL	hap1_contig_619_phaseblock_2	13319	118705	hap2_contig_619_phaseblock_2	85673	85674	relocation, inconsistency = 1792	40786	33026
+chr1_PATERNAL	hap2_contig_3492_phaseblock_0	1	42936	hap1_contig_3492_phaseblock_0	6070	6071	relocation, inconsistency = 64001	6063	34564
+chr1_PATERNAL	hap2_contig_4099_phaseblock_0	1	100346	hap1_contig_4099	7190	7191	translocation	7189	6669
+chr1_PATERNAL	hap2_contig_4099_phaseblock_0	1	100346	hap1_contig_4099	13860	13861	translocation	6669	16699
+chr1_PATERNAL	hap2_contig_4099_phaseblock_0	1	100346	hap1_contig_4099	30560	30561	relocation, inconsistency = 57357	16699	5157
+chr1_PATERNAL	hap2_contig_4099_phaseblock_0	1	100346	hap1_contig_4099	35718	35719	relocation, inconsistency = -57699	5157	30457
+chr1_PATERNAL	hap2_contig_4099_phaseblock_0	1	100346	hap1_contig_4099	77079	77080	relocation, inconsistency = 51955	10902	21995
+chr2_MATERNAL	hap1_contig_816_phaseblock_0	1	30824	hap2_contig_816	8351	8352	relocation, inconsistency = -1048517	5872	22922
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	11982	11990	translocation	3094	541
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	22532	22533	translocation	104	8041
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	30574	31577	translocation	8041	10773
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	42350	42351	translocation	10773	8250
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	50601	50602	translocation	8250	1628
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	52478	52504	relocation, inconsistency = 832387	247	2390
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	54894	54895	translocation	2390	8793
+chr2_PATERNAL	hap2_contig_2564_phaseblock_0	1	72940	hap1_contig_2564	63688	63689	translocation	8793	7865
+chr2_PATERNAL	hap2_contig_3075_phaseblock_0	1	43601	hap1_contig_3075_phaseblock_0	2837	4996	relocation, inconsistency = -9355	74	6240
+chr2_PATERNAL	hap2_contig_3075_phaseblock_0	1	43601	hap1_contig_3075_phaseblock_0	11236	11237	translocation	6240	33385
+chr3_MATERNAL	hap1_contig_574_phaseblock_1	89239	194312	hap2_contig_574_phaseblock_1	105730	105731	relocation, inconsistency = 941380	21923	69408
+chr3_MATERNAL	hap2_contig_780_phaseblock_43	22518207	22975810	hap2_contig_780_phaseblock_57	22961368	22962056	local misassembly	375800	17099
+chr3_PATERNAL	hap1_contig_5088_phaseblock_0	1	43894	hap2_contig_5088	11774	11775	relocation, inconsistency = -43888	11773	32117
+chr4_MATERNAL	hap1_contig_2689_phaseblock_0	1	101089	hap2_contig_2689_phaseblock_0	19232	19233	translocation	19220	68236
+chr4_MATERNAL	hap1_contig_4954_phaseblock_0	1	104160	hap2_contig_4954_phaseblock_0	46174	46175	translocation	46173	50597
+chr4_PATERNAL	hap2_contig_5359_phaseblock_0	1	24937	hap1_contig_5359	23247	23248	relocation, inconsistency = -635645	23246	2393
+chr5_MATERNAL	hap1_contig_333_phaseblock_0	1	3474454	hap1_contig_333_phaseblock_3	3441380	3441381	translocation	479080	9396
+chr5_MATERNAL	hap1_contig_333_phaseblock_0	1	3474454	hap1_contig_333_phaseblock_3	3450777	3450789	local misassembly	9396	4044
+chr5_MATERNAL	hap1_contig_333_phaseblock_0	1	3474454	hap1_contig_333_phaseblock_3	3454833	3454834	translocation	4044	19649
+chr5_MATERNAL	hap1_contig_3403_phaseblock_75	47624759	52977217	hap2_contig_3403_phaseblock_104	52840409	52840410	translocation	2868045	121146
+chr5_MATERNAL	hap1_contig_600_phaseblock_0	1	69404	hap2_contig_600	5209	5210	relocation, inconsistency = 5941	5208	36525
+chr5_MATERNAL	hap1_contig_600_phaseblock_0	1	69404	hap2_contig_600	41735	41736	local misassembly	36525	12703
+chr5_MATERNAL	hap1_contig_600_phaseblock_0	1	69404	hap2_contig_600	54439	55460	local misassembly	12703	8103
+chr5_MATERNAL	hap2_contig_4751_phaseblock_0	1	41412	hap1_contig_4751	19174	19297	translocation	19172	22775
+chr5_PATERNAL	hap2_contig_2105_phaseblock_1	210360	243128	hap1_contig_2105_phaseblock_1	236351	236352	translocation	24080	9322
+chr5_PATERNAL	hap1_contig_2439	1	117189	hap2_contig_2439	80697	80698	relocation, inconsistency = 41876	80696	32676
+chr5_PATERNAL	hap2_contig_3670_phaseblock_0	1	147576	hap1_contig_3670	2861	2862	relocation, inconsistency = 4414	2858	36486
+chr5_PATERNAL	hap2_contig_3670_phaseblock_0	1	147576	hap1_contig_3670	64505	64506	translocation	25156	66783
+chr5_PATERNAL	hap2_contig_3670_phaseblock_0	1	147576	hap1_contig_3670	131289	131290	translocation	66783	8859
+chr5_PATERNAL	hap1_contig_3811_phaseblock_0	1	88622	hap2_contig_3811	6387	6388	relocation, inconsistency = 9179	6386	27254
+chr5_PATERNAL	hap1_contig_3811_phaseblock_0	1	88622	hap2_contig_3811	33642	33643	relocation, inconsistency = 2394772	27254	55368
+chr6_MATERNAL	hap1_contig_1985_phaseblock_16	6536144	9303040	hap1_contig_1985_phaseblock_20	8302686	8302687	translocation	930108	274813
+chr6_MATERNAL	hap1_contig_3534_phaseblock_0	1	111038	hap2_contig_3534_phaseblock_0	90650	90651	relocation, inconsistency = 6744625	90649	17207
+chr6_PATERNAL	hap1_contig_5217_phaseblock_8	5608794	7367304	hap2_contig_5217_phaseblock_16	6050009	6050010	translocation	431539	1317647
+chr6_PATERNAL	hap2_contig_5625_phaseblock_0	1	40685	hap1_contig_5625_phaseblock_0	14671	15549	local misassembly	14670	26720
+chr7_MATERNAL	hap1_contig_4023_phaseblock_0	1	74670	hap2_contig_4023	17867	17868	relocation, inconsistency = 69537846	17866	57136
+chr7_MATERNAL	hap1_contig_4052_phaseblock_0	1	108034	hap2_contig_4052_phaseblock_0	10683	10684	relocation, inconsistency = -1828507	10682	47783
+chr7_MATERNAL	hap1_contig_4052_phaseblock_0	1	108034	hap2_contig_4052_phaseblock_0	58467	58468	translocation	47783	50198
+chr7_MATERNAL	hap2_contig_5345_phaseblock_0	1	759294	hap1_contig_5345	24436	24437	translocation	24435	733765
+chr7_PATERNAL	hap1_contig_2012_phaseblock_0	1	420730	hap1_contig_2012_phaseblock_0	19484	19485	translocation	19483	1408717
+chr7_PATERNAL	hap1_contig_714_phaseblock_0	1	299943	hap2_contig_714_phaseblock_0	263265	263266	translocation	263264	29637
+chr9_MATERNAL	hap1_contig_1441_phaseblock_0	1	357413	hap2_contig_1441_phaseblock_0	152099	152100	relocation, inconsistency = -968188	152098	14073
+chr9_MATERNAL	hap1_contig_1441_phaseblock_0	1	357413	hap2_contig_1441_phaseblock_0	166173	166174	relocation, inconsistency = 969160	14073	190550
+chr9_MATERNAL	hap1_contig_1442_phaseblock_1	182429	379161	hap2_contig_1442_phaseblock_1	344242	346188	local misassembly	163529	31527
+chr9_MATERNAL	hap1_contig_1533_phaseblock_0	1	76539	hap2_contig_1533_phaseblock_0	40964	40965	relocation, inconsistency = 7197921	40963	3389
+chr9_MATERNAL	hap1_contig_1533_phaseblock_0	1	76539	hap2_contig_1533_phaseblock_0	44354	44355	translocation	3389	26751
+chr9_MATERNAL	hap1_contig_1533_phaseblock_0	1	76539	hap2_contig_1533_phaseblock_0	71106	71107	translocation	26751	7099
+chr9_MATERNAL	hap1_contig_1571_phaseblock_0	1	30521	hap2_contig_1571_phaseblock_0	21162	21163	relocation, inconsistency = 2674670	21161	2243
+chr9_MATERNAL	hap1_contig_1571_phaseblock_0	1	30521	hap2_contig_1571_phaseblock_0	23406	23407	relocation, inconsistency = 11122795	2243	3384
+chr9_MATERNAL	hap1_contig_1571_phaseblock_0	1	30521	hap2_contig_1571_phaseblock_0	26791	26792	relocation, inconsistency = 10703008	3384	4578
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	1146	1147	relocation, inconsistency = 10291024	1145	22519
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	23666	23667	relocation, inconsistency = 10249098	22519	20030
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	43697	43698	relocation, inconsistency = 11110916	20030	1233
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	44931	45169	relocation, inconsistency = 11073958	1233	31245
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	76414	76415	relocation, inconsistency = 10593837	31245	23065
+chr9_MATERNAL	hap1_contig_227_phaseblock_0	1	110579	hap2_contig_227_phaseblock_0	99480	99481	relocation, inconsistency = 10563061	23065	9086
+chr9_MATERNAL	hap1_contig_2635_phaseblock_0	1	261601	hap2_contig_2635_phaseblock_0	20035	20036	local misassembly	19858	215576
+chr9_MATERNAL	hap1_contig_2635_phaseblock_0	1	261601	hap2_contig_2635_phaseblock_0	235612	236195	local misassembly	215576	25605
+chr9_MATERNAL	hap1_contig_276_phaseblock_0	1	117754	hap2_contig_276_phaseblock_0	18091	18092	relocation, inconsistency = 909147	18090	65627
+chr9_MATERNAL	hap1_contig_276_phaseblock_0	1	117754	hap2_contig_276_phaseblock_0	83719	83720	relocation, inconsistency = -2046	65627	24065
+chr9_MATERNAL	hap1_contig_276_phaseblock_0	1	117754	hap2_contig_276_phaseblock_0	107785	107786	translocation	24065	4697
+chr9_MATERNAL	hap1_contig_276_phaseblock_0	1	117754	hap2_contig_276_phaseblock_0	112483	112484	translocation	4697	12599
+chr9_MATERNAL	hap1_contig_3013_phaseblock_0	1	91575	hap2_contig_3013_phaseblock_0	21194	21195	translocation	21193	64428
+chr9_MATERNAL	hap1_contig_3013_phaseblock_0	1	91575	hap2_contig_3013_phaseblock_0	85623	85624	relocation, inconsistency = 2548078	64428	4891
+chr9_MATERNAL	hap1_contig_4353_phaseblock_0	1	77382	hap2_contig_4353_phaseblock_0	64722	64723	relocation, inconsistency = -77918	64721	13030
+chr9_MATERNAL	hap2_contig_1573	1	24414	hap2_contig_1573	15943	15944	translocation	15942	4395
+chr9_MATERNAL	hap2_contig_1573	1	24414	hap2_contig_1573	20339	20543	translocation	4395	4571
+chr9_PATERNAL	hap1_contig_3091_phaseblock_0	1	122128	hap2_contig_3091_phaseblock_0	6978	6979	translocation	6977	53647
+chr9_PATERNAL	hap1_contig_3091_phaseblock_0	1	122128	hap2_contig_3091_phaseblock_0	60626	60627	translocation	53647	60209
+chr9_PATERNAL	hap2_contig_3331_phaseblock_0	1	274600	hap1_contig_3331_phaseblock_0	16857	16858	relocation, inconsistency = -30879	16856	5803
+chr9_PATERNAL	hap2_contig_3331_phaseblock_0	1	274600	hap1_contig_3331_phaseblock_0	22661	22662	relocation, inconsistency = 30669	5803	168983
+chr10_MATERNAL	hap2_contig_4545_phaseblock_1	1686725	1864318	hap2_contig_4545_phaseblock_2	1714926	1714927	relocation, inconsistency = -4600942	24003	117867
+chr10_MATERNAL	hap2_contig_4545_phaseblock_1	1686725	1864318	hap2_contig_4545_phaseblock_2	1832794	1832795	relocation, inconsistency = 4601426	117867	31082
+chr10_MATERNAL	hap1_contig_5287_phaseblock_0	1	107474	hap2_contig_5287_phaseblock_0	89300	89301	translocation	89299	16711
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	12154	12165	local misassembly	12153	6392
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	18557	18558	relocation, inconsistency = 659947	6392	1265
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	19823	19824	local misassembly	1265	148
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	19972	19973	relocation, inconsistency = -661701	148	11842
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	31815	31816	local misassembly	11842	13302
+chr10_PATERNAL	hap2_contig_3120_phaseblock_18	3594	97885	hap1_contig_3120	45118	45119	relocation, inconsistency = 33240	13302	45244
+chr10_PATERNAL	hap2_contig_3143	1	31374	hap1_contig_3143_phaseblock_0	5322	5323	relocation, inconsistency = -257774	5321	25970
+chr11_MATERNAL	hap2_contig_64_phaseblock_0	1	892562	hap1_contig_64_phaseblock_1	771375	771376	translocation	410911	123787
+chr11_MATERNAL	hap2_contig_834_phaseblock_23	6600584	7725095	hap1_contig_834_phaseblock_33	6628963	6628964	translocation	75867	1108535
+chr11_PATERNAL	hap1_contig_3622_phaseblock_0	1	66937	hap2_contig_3622	48854	48855	relocation, inconsistency = 39339684	48853	11843
+chr13_MATERNAL	hap2_contig_1082_phaseblock_0	1	92235	hap1_contig_1082_phaseblock_0	1756	1757	relocation, inconsistency = 177347	1750	10167
+chr13_MATERNAL	hap2_contig_1082_phaseblock_0	1	92235	hap1_contig_1082_phaseblock_0	20308	20319	relocation, inconsistency = 715348	8383	4258
+chr13_MATERNAL	hap2_contig_1082_phaseblock_0	1	92235	hap1_contig_1082_phaseblock_0	24577	24578	relocation, inconsistency = 405623	4258	58356
+chr13_MATERNAL	hap1_contig_2143_phaseblock_6	499704	613302	hap2_contig_2143_phaseblock_4	583061	583062	translocation	223247	31056
+chr13_MATERNAL	hap1_contig_5716_phaseblock_0	1	2198141	hap1_contig_5716_phaseblock_0	1524697	1524698	translocation	1524696	524874
+chr13_PATERNAL	hap1_contig_1318_phaseblock_0	1	111006	hap2_contig_1318	16734	16735	translocation	16733	95075
+chr13_PATERNAL	hap2_contig_5716_phaseblock_0	1	2199749	hap2_contig_5716_phaseblock_0	1527402	1527403	translocation	1527401	525057
+chr14_MATERNAL	hap1_contig_4815_phaseblock_1	318199	1420949	hap1_contig_4815_phaseblock_2	494189	494190	translocation	136340	925926
+chr14_MATERNAL	hap1_contig_1961_phaseblock_2	228532	306887	hap2_contig_1961_phaseblock_2	273310	273311	relocation, inconsistency = 81181	90300	15203
+chr14_MATERNAL	hap1_contig_1961_phaseblock_2	228532	306887	hap2_contig_1961_phaseblock_2	288514	288515	relocation, inconsistency = -58828	15203	13889
+chr14_PATERNAL	hap1_contig_2857	1	30330	hap2_contig_2857	27345	27346	translocation	27344	2501
+chr14_PATERNAL	hap2_contig_3854_phaseblock_36	29128625	33584378	hap1_contig_3854_phaseblock_54	32136304	32136305	translocation	81640	777238
+chr14_PATERNAL	hap2_contig_2378	1	66857	hap1_contig_2378_phaseblock_0	42129	42144	translocation	42128	33865
+chr15_MATERNAL	hap2_contig_155_phaseblock_0	1	80191	hap1_contig_155_phaseblock_0	19488	19489	relocation, inconsistency = 3017245	19487	54133
+chr15_PATERNAL	hap1_contig_5494_phaseblock_0	1	97318	hap2_contig_5494_phaseblock_0	47872	47873	translocation	47871	50878
+chr16_PATERNAL	hap2_contig_4059	1	189694	hap1_contig_4059	172297	173695	relocation, inconsistency = 61807745	172296	2244
+chr16_PATERNAL	hap2_contig_5578_phaseblock_0	1	23194	hap1_contig_5578_phaseblock_0	15992	15993	translocation	15991	6328
+chr17_MATERNAL	hap1_contig_2888_phaseblock_1	570635	1514753	hap1_contig_2888_phaseblock_1	1139333	1139334	translocation	568571	375683
+chr18_PATERNAL	hap1_contig_2033_phaseblock_0	1	18321	hap2_contig_2033	12626	12627	relocation, inconsistency = 84222	12625	3984
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	188782	188783	relocation, inconsistency = 1172898	13581	6945
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	195728	195743	relocation, inconsistency = 260387	6945	10328
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	206071	206072	relocation, inconsistency = 322615	10328	5762
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	211834	211922	relocation, inconsistency = -516024	5762	14116
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	226038	226039	relocation, inconsistency = 378681	14116	3253
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	229292	229293	relocation, inconsistency = -473183	3253	8357
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	237650	237651	relocation, inconsistency = -559832	8357	13063
+chr19_MATERNAL	hap1_contig_2502_phaseblock_1	87268	272295	hap2_contig_2502_phaseblock_1	250714	250715	relocation, inconsistency = -585532	13063	21289
+chr19_MATERNAL	hap2_contig_5633_phaseblock_7	4149052	5225010	hap1_contig_5633_phaseblock_11	5218921	5218930	translocation	81534	2411
+chr19_PATERNAL	hap1_contig_1396_phaseblock_0	1	97504	hap2_contig_1396_phaseblock_0	62662	62663	translocation	62661	11939
+chr19_PATERNAL	hap1_contig_1396_phaseblock_0	1	97504	hap2_contig_1396_phaseblock_0	74602	74603	translocation	11939	54147
+chr19_PATERNAL	hap1_contig_4013_phaseblock_0	1	5967	hap2_contig_4013_phaseblock_0	4640	4641	local misassembly	4639	1332
+chr20_PATERNAL	hap2_contig_1517	1	25526	hap1_contig_1517	4402	5339	relocation, inconsistency = 259065	4401	20161
+chr20_PATERNAL	hap1_contig_3917_phaseblock_0	1	80392	hap2_contig_3917	26295	26296	relocation, inconsistency = 33822	26294	46935
+chr22_PATERNAL	hap2_contig_5861	1	21781	hap1_contig_5861	3278	3279	translocation	3277	18559
+chrX_MATERNAL	hap2_contig_3255_phaseblock_23	1546051	1587563	hap2_contig_3255_phaseblock_13	1547452	1547898	local misassembly	1486	39631
+chrX_MATERNAL	hap1_contig_3607_phaseblock_14	1066340	1145362	hap2_contig_3607_phaseblock_10	1086862	1086863	relocation, inconsistency = 75551	11008	49743
+chrX_MATERNAL	hap1_contig_4083_phaseblock_24	1431419	1505524	hap2_contig_4083_phaseblock_16	1476046	1476047	relocation, inconsistency = 3318	44618	2921
+chrX_MATERNAL	hap1_contig_4083_phaseblock_24	1431419	1505524	hap2_contig_4083_phaseblock_16	1478968	1479029	relocation, inconsistency = -2964	2921	26213
+chrY_PATERNAL	hap1_contig_100	1	13409	hap1_contig_100	1685	1686	relocation, inconsistency = -14221775	1665	11723
+chrY_PATERNAL	hap2_contig_100	1	13409	hap1_contig_100	1685	1686	relocation, inconsistency = -14221775	1665	11723
+chrY_PATERNAL	hap2_contig_1035_phaseblock_20	1271698	1380912	hap1_contig_1035_phaseblock_15	1331489	1331490	relocation, inconsistency = 16753714	77091	10923
+chrY_PATERNAL	hap2_contig_1035_phaseblock_20	1271698	1380912	hap1_contig_1035_phaseblock_15	1342413	1342414	relocation, inconsistency = -16752047	10923	34414
+chrY_PATERNAL	hap1_contig_331_phaseblock_0	1	195574	hap2_contig_331_phaseblock_0	83012	83167	translocation	83011	28102
+chrY_PATERNAL	hap1_contig_331_phaseblock_0	1	195574	hap2_contig_331_phaseblock_0	111269	111270	relocation, inconsistency = 76267	28102	17711
+chrY_PATERNAL	hap1_contig_331_phaseblock_0	1	195574	hap2_contig_331_phaseblock_0	128981	128982	translocation	17711	100857
+chrY_PATERNAL	hap1_contig_4648_phaseblock_0	1	8807	hap2_contig_4648	7712	8875	relocation, inconsistency = 2111777	7711	8775
+chrY_PATERNAL	hap2_contig_4648_phaseblock_1	8779	10453	hap2_contig_4648	7712	8875	relocation, inconsistency = 2111777	7711	8775
+chrY_PATERNAL	hap1_contig_5486_phaseblock_0	1	119241	hap2_contig_5486_phaseblock_0	19964	19965	translocation	19963	101315
